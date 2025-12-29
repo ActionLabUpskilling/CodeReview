@@ -6,6 +6,9 @@ const runApp = () => {
 
   const result2 = divide(10, 0); // intentional bug: divide by zero
   console.log("Divide Result: ", result2);
+
+  const result3 = add(5, null); // invalid addition
+  console.log("Add Result: ", result3);
 };
 
 runApp();
